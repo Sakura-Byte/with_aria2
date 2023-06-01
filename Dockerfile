@@ -1,5 +1,5 @@
-FROM xhofe/alist:latest
-LABEL MAINTAINER="i@nn.ci"
+FROM sakurapy/alist:latest
+LABEL MAINTAINER="i@sakurapy.com"
 VOLUME /opt/alist/data/
 WORKDIR /opt/alist/
 COPY entrypoint.sh /entrypoint.sh
